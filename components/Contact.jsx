@@ -27,15 +27,15 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Kholwani Mabhena</h2>
-                <p>Software Engineer</p>
-                <p className='py-4'>
+                <h2 className=' mt-8 text-slate-700'>Kholwani Mabhena</h2>
+                <p className=' text-slate-600'>Software Engineer</p>
+                <p className='py-4 text-slate-600'>
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
                 </p>
               </div>
               <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
+                <p className='uppercase text-slate-600 pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
                     href='https://www.linkedin.com/in/khomabhena/'
