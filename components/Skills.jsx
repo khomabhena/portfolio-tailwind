@@ -69,9 +69,9 @@ const Skills = () => {
               <div key={index} className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image className=' object-cover h-24 w-24' src={icon} width={400} height={400} alt='/' />
+                    <Image className=' object-cover h-12 w-12 md:h-24 md:w-24' src={icon} width={400} height={400} alt='/' />
                   </div>
-                  <div className='flex flex-col items-center justify-center'>
+                  <div className='flex flex-col text-sm md:text-base items-center justify-center'>
                     <h3>{name}</h3>
                   </div>
                 </div>
