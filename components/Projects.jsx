@@ -1,41 +1,12 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
+import getProjects from '@/data/projects';
 
 const Projects = () => {
-  const data = [
-    {
-      title: 'UK Care Connection',
-      image: '/assets/projects/project-ukc.PNG',
-      link: '/ukc',
-      tech: 'Next JS'
-    },
-    {
-      title: 'ECommerce Shop',
-      image: '/assets/projects/project-ecommerce.PNG',
-      link: '/shop',
-      tech: 'Next JS'
-    },
-    {
-      title: 'UKC Dashboard',
-      image: '/assets/projects/project-ukc-dashboard.PNG',
-      link: '/dashboard',
-      tech: 'Next JS'
-    },
-    {
-      title: 'iMali App',
-      image: '/assets/projects/project-imali.PNG',
-      link: '/imali',
-      tech: 'Next JS'
-    },
-    {
-      title: 'Daylong App',
-      image: '/assets/projects/project-daylong.PNG',
-      link: '/daylong',
-      tech: 'Next JS'
-    },
-  ]
+  const data = getProjects()
+  
   return (
-    <div id='projects' className='w-full mt-12'>
+    <div id='projects' className='w-full mt-32'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
