@@ -6,7 +6,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Kholwani | Resume</title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
@@ -17,7 +17,7 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Kholwani Mabhena</h2>
           <div className='flex'>
             <a
               href='https://www.linkedin.com/in/khomabhena/'
@@ -38,14 +38,12 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+              Full Stack Developer <span className='px-1'>|</span> Android Development{' '}
             </p>
           </div>
           <div className='block sm:hidden'>
-            <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
-            <p>Complex Problem Solving</p>
+            <p>Full Stack Developer</p>
+            <p className='py-2'>Android Development</p>
           </div>
         </div>
         <p>
@@ -60,66 +58,106 @@ const resume = () => {
           generation, and optimizing efficiencies.
         </p>
 
-        {/* Skills */}
-        <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
+        {/* Languages and Technologies */}
+        <div className=' py-4'>
+          <h5 className=' mt-8 text-slate-500 font-bold text-xl'>LANGUAGES AND TECHNOLOGIES</h5>
           <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
+
+            <span className='font-bold text-slate-600'>Proficient: </span>
+            <span className='px-2'>|</span>JavaScript
+            <span className='px-2'>|</span>Java
+            <span className='px-2'>|</span> React JS
             <span className='px-2'>|</span>Next JS
+            <span className='px-2'>|</span>Tailwind CSS
+            <span className='px-2'>|</span>Node JS
+            <span className='px-2'>|</span>Express
+            <span className='px-2'>|</span>MongoDB
+            <span className='px-2'>|</span>Firebase
             <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span>SQLIte
+            <span className='px-2'>|</span> JQuery
+            <span className='px-2'>|</span> HTML5
+            <span className='px-2'>|</span> CSS3
           </p>
-          <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
+          <p className=''>
+            <span className='font-bold text-slate-600'>Exposure: </span>
+            <span className='px-2'>|</span>Kotlin
+            <span className='px-2'>|</span>Python
+            <span className='px-2'>|</span>Angular
+            <span className='px-2'>|</span>C# 
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
+        {/* Skills */}
+        <div className=' py-4'>
+          <h5 className=' mt-8 text-slate-500 font-bold text-xl'>SKILLS</h5>
+          <p className='py-2'>Project Management
+            <span className='px-2'>|</span>Product Designing
+            <span className='px-2'>|</span>Designing Algorithms
+            <span className='px-2'>|</span>System Designing
+            <span className='px-2'>|</span>Project Structuring
+            <span className='px-2'>|</span>Visual Designing
+            <span className='px-2'>|</span>Managing Developers
+            <span className='px-2'>|</span>Assigning Responsibilities
+            <span className='px-2'>|</span>Discovering Developer Strengths
+            <span className='px-2'>|</span>Producing a well-built project
+          </p>
+        </div>
+
+        <h5 className='mt-8 text-slate-500 font-bold text-xl uppercase'>
           Professional Experience
         </h5>
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+            UK Care Connection 
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Harare, ZW
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
+          <p className='py-1 italic'>Full Stack Developer (AUGUST 2022 - MAY 2023)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+              Worked with the founders on mapping the development of their Care Workers Hiring platform.
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+              Designed the UI & UX of the landing page with React, Next JS and Tailwind CSS
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+              Delivered a full stack Next JS dashboard for applicants and employers
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+              Integrated the platform with Stripe for handling subscriptions from employers
             </li>
+            <li>
+              Build the database relations and host it on Firebase Firestore
+            </li>
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            ASTRO Mobile 
+            </span>
+            <span className='px-2'>|</span>Harare, ZW
+          </p>
+          <p className='py-1 italic'>Chief Software Engineer (AUGUST 2019 - JUNE 2022)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>Led a team of 4 Senior Engineers on the designing and development of the EShagi platform on Android and Web</li>
+            <li>The app handled over 50,000 users and processed over a million dollars in civil servant loans</li>
+            <li>Designed the software specifications for the app and assigned roles to each developer</li>
+            <li>Developed the Android App and the algorithm which handled all the backend services</li>
+            <li>Approved UI & UX designs from the engineers</li>
+            <li>Handled presentations and meetings with stakeholders and potential investors</li>
+            <li>Organised Hackerthons to upskill junior developer</li>
+            <li>Participated in the hiring and vetting process of junior developers and Server Administrators</li>
           </ul>
         </div>
 
 
         {/* Personal Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
               Teaching & Mentoring Web Development
@@ -139,15 +177,15 @@ const resume = () => {
               concepts and code reviews.
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
+        {/* <h5 className='text-center underline text-[18px] py-4'>
           Other Professional Experience
-        </h5>
+        </h5> */}
       
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold'>CITY OF SHERMAN, TX</span>
             <span className='px-2'>|</span>Sherman, TX
@@ -181,7 +219,8 @@ const resume = () => {
               Support, among others.
             </li>
           </ul>
-        </div>
+        </div> */}
+
       </div>
     </>
   );
