@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import AboutImg from '../public/assets/about.jpg';
+import Title from './Title';
 
 const About = () => {
   const one = "I specialize in developing responsive web apps using technologies such as React, Next JS, JavaScript, Java and Tailwind. I use Node JS and Express to connect to the backend or use Next JS's inbuilt API routing service. I’m proficient in using databases such as SQL and non-relational databases such as MongoDB and Firebase along with other mobile-friendly databases such as SQLite."
@@ -12,10 +13,7 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
-            About
-          </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <Title title="About" sub="Who Am I" />
           <p className='py-2 text-gray-600'>
             {one}
           </p>
