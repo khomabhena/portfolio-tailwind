@@ -32,6 +32,20 @@ const getProjects = () => {
         ]
     },
     {
+        id: 'dolla',
+        title: 'Dolla Fintech',
+        image: '/assets/projects/project-dolla.PNG',
+        link: '/projects/dolla',
+        tech: 'React JS',
+        techMore: 'React JS',
+        liveDemo: 'https://dolla-fintech.vercel.app',
+        gitHubLink: 'https://github.com/khomabhena/dolla-finance-website',
+        desc: 'Landing page for the Dolla Fin-tech Business. Designed as a web service to sell financial advice and other financial services. The service was developed using React JS.',
+        techStack: [
+            'React', 'Styled Components', 'JavaScript', 'HTML', 'CSS'
+        ]
+    },
+    {
         id: 'ukc-dashboard',
         title: 'UKC Dashboard',
         image: '/assets/projects/project-ukc-dashboard.PNG',
