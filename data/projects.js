@@ -46,6 +46,20 @@ const getProjects = () => {
         ]
     },
     {
+        id: 'mnandi',
+        title: 'Mnandi Meals',
+        image: '/assets/projects/project-mnandi.PNG',
+        link: '/projects/mnandi',
+        tech: 'Next.js',
+        techMore: 'Next.js | React.js',
+        liveDemo: 'https://mnandi-meals.vercel.app',
+        gitHubLink: 'https://github.com/khomabhena/odin-recipes',
+        desc: 'Landing page for the Mnandi Meals recipes. Designed as a web service to showcase exceptional home cooked meal recipes. The service was developed using Next JS.',
+        techStack: [
+            'Next.js', 'Tailwind CSS', 'APIs', 'Node.js', 'JavaScript', 'HTML', 'CSS'
+        ]
+    },
+    {
         id: 'ukc-dashboard',
         title: 'UKC Dashboard',
         image: '/assets/projects/project-ukc-dashboard.PNG',
