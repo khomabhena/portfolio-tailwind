@@ -114,6 +114,20 @@ const getProjects = () => {
         techStack: [
             'React', 'Next JS', 'Tailwind CSS', 'MongoDB'
         ]
+    },
+    {
+        id: 'tic-tac-toe',
+        title: 'Tic-Tac-toe Game',
+        image: '/assets/projects/project-tic-tac-toe.PNG',
+        link: '/projects/tic-tac-toe',
+        tech: 'Javascript',
+        techMore: 'Javascript | HTML | CSS',
+        liveDemo: 'https://khomabhena.github.io/tictactoe/',
+        gitHubLink: 'https://github.com/khomabhena/tictactoe',
+        desc: 'This is a Tic Tac Toe game created on the web using Javascript, HTML5 and CSS.',
+        techStack: [
+            'Javascript', 'HTML5', 'CSS', 'Local Storage'
+        ]
     }
   ]
 }
