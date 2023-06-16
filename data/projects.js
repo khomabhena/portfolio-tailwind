@@ -26,7 +26,7 @@ const getProjects = () => {
         techMore: 'React / Next JS',
         liveDemo: 'https://khomab-shop.vercel.app',
         gitHubLink: 'https://github.com/khomabhena/ecommerce',
-        desc: 'Designed as an e-commerce service to sell equipment and other phone accessories. The service was developed using Next JS to utilise the Server Rendering function for faster loading times of product pages and give a seamless experience to customers. The products are handled and managed on the Sanity CMS engine for easier product and store management without involving engineers. Product payments are facilitated by the Stripe platform.',
+        desc: 'The e-commerce service was developed using Next JS to leverage the Server Rendering feature, which reduces loading times of product pages, providing customers with a seamless experience. The Sanity CMS engine is used to manage and handle products, which makes it easier for non-engineers to manage the store and its products. The Stripe platform is used to facilitate product payments, making it easier for customers to purchase products from the store.',
         techStack: [
             'React', 'Next JS', 'Sanity CMS', 'Stripe'
         ]
@@ -54,7 +54,7 @@ const getProjects = () => {
         techMore: 'Next.js | React.js',
         liveDemo: 'https://mnandi-meals.vercel.app',
         gitHubLink: 'https://github.com/khomabhena/odin-recipes',
-        desc: 'Landing page for the Mnandi Meals recipes. Designed as a web service to showcase exceptional home cooked meal recipes. The service was developed using Next JS.',
+        desc: 'The Mnandi Meals landing page is a web service built using Next JS. The purpose of Mnandi Meals is to showcase exceptional home-cooked meal recipes.',
         techStack: [
             'Next.js', 'Tailwind CSS', 'APIs', 'Node.js', 'JavaScript', 'HTML', 'CSS'
         ]
