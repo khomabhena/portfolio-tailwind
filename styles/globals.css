@@ -32,6 +32,6 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-md uppercase bg-gradient-to-r from-sky-500 to-sky-600 text-white
+    @apply shadow-xl shadow-gray-400 rounded-md uppercase bg-gradient-to-r from-purple-700 to-purple-600 text-white
   }
 }
