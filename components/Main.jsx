@@ -70,14 +70,14 @@ const Main = () => {
           </div>
 
           {/* Certs */}
-          <div className='grid grid-cols-2 lg:grid-cols-3 gap-8'>
+          <div className='grid grid-cols-3 lg:grid-cols-3 gap-8'>
           {
             data?.map(({name,icon, link}, index) => (
               <a key={index} href={link} target='_blank' rel='noreferrer'>
                 <div key={index} className='p-6 cursor-pointer hover:scale-150 ease-in duration-300'>
                   <div className='grid grid-cols-1 gap-4 justify-center items-center'>
                     <div className='m-auto'>
-                        <Image className=' object-cover h-12 w-12 md:h-24 md:w-24' src={icon} width={400} height={400} alt='/' />
+                        <Image className=' object-cover h-16 w-16 md:h-24 md:w-24' src={icon} width={400} height={400} alt='/' />
                     </div>
                   </div>
                 </div>
