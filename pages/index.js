@@ -16,7 +16,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Kho Mab | Fullstack Developer</title>
-        <meta name="description" content="I’m a full stack web developer specializing in building and designing exceptional web applications." />
+        <meta name="description" content="I’m a full-stack software developer/engineer specializing in building and designing exceptional web applications." />
         <link rel="icon" href="/colwanymab-favicon-color.png" /> 
       </Head>
       <Navbar />

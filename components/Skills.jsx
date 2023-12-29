@@ -17,7 +17,7 @@ const Skills
     "Producing a well-built project"
   ]
   return (
-    <div id='skills' className='w-full lg:h-screen p-2 mt-12'>
+    <div id='skills' className='w-full lg:h-screen p-2 mt-24'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center'>
         <Title title='Skills' sub='My Skills' />
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
