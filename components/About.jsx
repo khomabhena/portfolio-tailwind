@@ -11,8 +11,8 @@ const About = () => {
   
 
   const one = "Proficient in developing responsive web apps using React, Next JS, JavaScript, and Tailwind."
-  const two = "Skilled in connecting to the backend using Node JS and Express or Next JS's inbuilt API routing service."
-  const three = "Experienced in working with SQL and non-relational databases such as MongoDB and Firebase, as well as mobile-friendly databases such as SQLite."
+  const two = "Skilled in developing RESTFul services using Python, Django, Node JS and Express."
+  const three = "Experienced in working with SQL and non-relational databases such as MongoDB and Firebase."
 
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>

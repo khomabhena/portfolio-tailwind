@@ -7,14 +7,12 @@ const Skills
   const data = [
     "Project Management", 
     "Product Designing", 
+    "Figma Wire Frames",
     "Designing Algorithms",
     "System Designing", 
     "Project Structuring", 
-    "Visual Designing",
     "Managing Developers", 
     "Assigning Responsibilities", 
-    "Discovering Developer Strengths", 
-    "Producing a well-built project"
   ]
   return (
     <div id='skills' className='w-full lg:h-screen p-2 mt-24'>

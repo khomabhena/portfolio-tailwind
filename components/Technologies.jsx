@@ -9,16 +9,24 @@ const Technologies = () => {
       icon: '/assets/skills/python-logo.png',
     },
     {
+      name: 'React',
+      icon: '/assets/skills/react.png'
+    },
+    {
       name: 'Django',
-      icon: '/assets/skills/django-logo.png',
+      icon: '/assets/skills/django.png',
     },
     {
       name: 'Figma',
       icon: '/assets/skills/figma-logo.png',
     },
     {
+      name: 'Git',
+      icon: '/assets/skills/git.png',
+    },
+    {
       name: 'React Native',
-      icon: '/assets/skills/react-native.png',
+      icon: '/assets/skills/react.png',
     },
     {
       name: 'Expo',
@@ -30,7 +38,7 @@ const Technologies = () => {
     },
     {
       name: 'SQLite',
-      icon: '/assets/skills/sqlite-logo.png',
+      icon: '/assets/skills/sqlite.png',
     },
     {
       name: 'JavaScript',
@@ -39,10 +47,6 @@ const Technologies = () => {
     {
       name: 'Java',
       icon: '/assets/skills/java1.jpg'
-    },
-    {
-      name: 'React',
-      icon: '/assets/skills/react.png'
     },
     {
       name: 'Next JS',
