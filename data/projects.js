@@ -46,6 +46,20 @@ const getProjects = () => {
         ]
     },
     {
+        id: 'talentsync',
+        title: 'Talent Sync',
+        image: '/assets/projects/project-talent-sync.PNG',
+        link: '/projects/talentsync',
+        tech: 'React JS',
+        techMore: 'React JS | Tailwind CSS',
+        liveDemo: 'https://kho-mab-talentsync.vercel.app',
+        gitHubLink: 'https://github.com/khomabhena/kho-mab-talentsync',
+        desc: 'Landing page for Clear Link. Designed for desktop viewing, it\'s not mobile responsive. The service was developed using React JS.',
+        techStack: [
+            'React', 'Tailwind CSS', 'JavaScript', 'HTML', 'CSS'
+        ]
+    },
+    {
         id: 'mnandi',
         title: 'Mnandi Meals',
         image: '/assets/projects/project-mnandi.PNG',
