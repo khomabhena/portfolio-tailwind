@@ -17,6 +17,16 @@ export default function Home() {
       <Head>
         <title>Kho Mabhena | Meta Certified Fullstack Developer</title>
         <meta name="description" content="I’m a full-stack software developer/engineer specializing in building and designing exceptional web applications." />
+        
+        <meta property="og:title" content="Kho Mabhena | Meta Certified SWE" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/kho-desk-setup.png" />
+        <meta property="og:url" content="https://littlelemon.com" />
+
+        <meta property="og:description" content="I’m a full-stack software developer/engineer specializing in building and designing exceptional web applications." />
+        <meta property="og:locale" content=""en_US />
+        <meta property="og:site_name" content="Little Lemon"></meta>
+
         <link rel="icon" href="/colwanymab-favicon-color.png" /> 
       </Head>
       <Navbar />
