@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Kho Mab | Fullstack Developer</title>
+        <title>Kho Mabhena | Meta Certified Fullstack Developer</title>
         <meta name="description" content="I’m a full-stack software developer/engineer specializing in building and designing exceptional web applications." />
         <link rel="icon" href="/colwanymab-favicon-color.png" /> 
       </Head>
