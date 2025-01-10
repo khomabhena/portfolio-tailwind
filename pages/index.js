@@ -20,7 +20,8 @@ export default function Home() {
         
         <meta property="og:title" content="Kho Mabhena | Meta Certified SWE" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/kho-desk-setup.png" />
+        {/* <meta property="og:image" content="/kho-desk-setup.png" /> */}
+        <meta property="og:image" content="/colwanymab-favicon-color.png" />
         <meta property="og:url" content="https://littlelemon.com" />
 
         <meta property="og:description" content="I’m a full-stack software developer/engineer specializing in building and designing exceptional web applications." />
